@@ -1,0 +1,21 @@
+1 - Passo criação do backend
+
+yarn init -y
+yarn add typescript -D
+yarn add express
+yarn add @types/express -D
+
+Inicializando o typescript
+yarn tsc --init
+
+criar nova pasta src, cria os arquivos routes.ts e server.ts
+para rodar o script em typescript, usa o comando yarn add ts-node-dev -D
+Em package.json adiciona esse código 
+  "scripts": {
+    "dev": "ts-node-dev src/server.ts"
+  },
+
+Para iniciar o projeto
+yarn dev
+
+
