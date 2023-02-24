@@ -18,4 +18,10 @@ Em package.json adiciona esse código
 Para iniciar o projeto
 yarn dev
 
+exceções
+yarn add express-async-errors
+
+liberar as requisições
+yarn add cors
+npm i --save-dev @types/cors
 
